@@ -1,14 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 auto;
+}
 .container {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: space-around;
   flex-wrap: wrap;
+  padding: 25px;
 }
 
 .container .card {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   margin: 25px;
+  background-color: #eee;
+  border-radius: 5%;
 }
 
 .container .card img {
